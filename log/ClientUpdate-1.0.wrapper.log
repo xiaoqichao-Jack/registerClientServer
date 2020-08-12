@@ -1,0 +1,113 @@
+2020-08-05 12:29:47,462 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 12:29:48,383 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-05 12:29:48,628 DEBUG - Completed. Exit code is 0
+2020-08-05 12:29:49,100 DEBUG - Starting WinSW in the service mode
+2020-08-05 12:29:49,826 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-05 12:29:49,986 INFO  - Started process 17572
+2020-08-05 12:29:49,995 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-05 13:01:07,886 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:01:10,173 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:01:11,102 INFO  - Uninstalling the service with id 'ClientUpdate'
+2020-08-05 13:01:11,110 WARN  - The service with id 'ClientUpdate' is running. It may be impossible to uninstall it
+2020-08-05 13:01:11,125 DEBUG - Completed. Exit code is 0
+2020-08-05 13:01:40,095 INFO  - Stopping ClientUpdate
+2020-08-05 13:01:40,096 DEBUG - ProcessKill 17572
+2020-08-05 13:01:40,258 INFO  - Found child process: 14012 Name: conhost.exe
+2020-08-05 13:01:40,326 INFO  - Stopping process 14012
+2020-08-05 13:01:40,331 INFO  - Send SIGINT 14012
+2020-08-05 13:01:40,334 WARN  - SIGINT to 14012 failed - Killing as fallback
+2020-08-05 13:01:40,338 INFO  - Stopping process 17572
+2020-08-05 13:01:40,346 INFO  - Send SIGINT 17572
+2020-08-05 13:01:40,348 WARN  - SIGINT to 17572 failed - Killing as fallback
+2020-08-05 13:01:40,353 INFO  - Finished ClientUpdate
+2020-08-05 13:01:40,355 DEBUG - Completed. Exit code is 0
+2020-08-05 13:02:18,426 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:02:19,335 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-05 13:02:19,361 DEBUG - Completed. Exit code is 0
+2020-08-05 13:02:19,680 DEBUG - Starting WinSW in the service mode
+2020-08-05 13:02:19,725 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-05 13:02:19,777 INFO  - Started process 13124
+2020-08-05 13:02:19,786 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 09:48:02,620 DEBUG - Starting WinSW in the CLI mode
+2020-08-06 09:48:02,900 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-06 09:48:02,994 DEBUG - Completed. Exit code is 0
+2020-08-06 09:48:03,400 DEBUG - Starting WinSW in the service mode
+2020-08-06 09:48:03,446 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-06 09:48:03,524 INFO  - Started process 4596
+2020-08-06 09:48:03,540 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 12:42:03,696 INFO  - Stopping ClientUpdate
+2020-08-06 12:42:03,696 DEBUG - ProcessKill 4596
+2020-08-06 12:42:03,836 WARN  - Failed to locate children of the process with PID=4596. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): 系统正在关机。 (异常来自 HRESULT:0x8007045B)
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-08-06 12:42:03,899 INFO  - Stopping process 4596
+2020-08-06 12:42:03,899 INFO  - Send SIGINT 4596
+2020-08-06 12:42:04,164 INFO  - SIGINT to 4596 successful
+2020-08-06 12:42:04,164 INFO  - Finished ClientUpdate
+2020-08-06 12:42:04,273 DEBUG - Completed. Exit code is 0
+2020-08-06 12:43:03,444 DEBUG - Starting WinSW in the service mode
+2020-08-06 12:43:03,647 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-06 12:43:03,740 INFO  - Started process 1304
+2020-08-06 12:43:03,740 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 12:56:04,751 DEBUG - Starting WinSW in the CLI mode
+2020-08-06 12:56:05,219 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-06 12:56:05,219 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'ClientUpdate' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2020-08-11 17:27:31,901 DEBUG - Starting WinSW in the service mode
+2020-08-11 17:27:32,057 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-11 17:27:32,182 INFO  - Started process 1304
+2020-08-11 17:27:32,182 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-12 12:00:10,348 INFO  - Stopping ClientUpdate
+2020-08-12 12:00:10,348 DEBUG - ProcessKill 1304
+2020-08-12 12:00:10,520 INFO  - Stopping process 1304
+2020-08-12 12:00:10,520 INFO  - Send SIGINT 1304
+2020-08-12 12:00:11,034 INFO  - SIGINT to 1304 successful
+2020-08-12 12:00:11,034 INFO  - Finished ClientUpdate
+2020-08-12 12:00:11,034 DEBUG - Completed. Exit code is 0
+2020-08-12 12:01:03,375 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 12:01:03,672 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-12 12:01:03,765 DEBUG - Completed. Exit code is 0
+2020-08-12 12:01:04,171 DEBUG - Starting WinSW in the service mode
+2020-08-12 12:01:04,218 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-12 12:01:04,280 INFO  - Started process 1852
+2020-08-12 12:01:04,280 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-12 12:03:03,920 INFO  - Stopping ClientUpdate
+2020-08-12 12:03:03,920 DEBUG - ProcessKill 1852
+2020-08-12 12:03:04,076 INFO  - Stopping process 1852
+2020-08-12 12:03:04,092 INFO  - Send SIGINT 1852
+2020-08-12 12:03:04,591 INFO  - SIGINT to 1852 successful
+2020-08-12 12:03:04,591 INFO  - Finished ClientUpdate
+2020-08-12 12:03:04,606 DEBUG - Completed. Exit code is 0
+2020-08-12 14:21:08,256 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 14:21:08,639 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-12 14:21:08,784 DEBUG - Completed. Exit code is 0
+2020-08-12 14:21:09,364 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:21:09,417 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-12 14:21:09,464 DEBUG - Completed. Exit code is 0
+2020-08-12 14:21:55,021 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:21:55,073 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-12 14:21:55,135 DEBUG - Completed. Exit code is 0
+2020-08-12 15:30:35,679 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 15:30:35,990 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-12 15:30:36,016 DEBUG - Completed. Exit code is 0
+2020-08-12 15:30:36,428 DEBUG - Starting WinSW in the service mode
+2020-08-12 15:30:36,493 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-12 15:30:36,529 DEBUG - Completed. Exit code is 0
+2020-08-12 16:01:11,409 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 16:01:11,653 INFO  - Installing the service with id 'ClientUpdate'
+2020-08-12 16:01:11,655 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'ClientUpdate' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2020-08-12 16:01:11,987 DEBUG - Starting WinSW in the service mode
+2020-08-12 16:01:12,030 INFO  - Starting java -jar "C:\omClient-1.0\ClientUpdate-1.0.jar"
+2020-08-12 16:01:12,061 DEBUG - Completed. Exit code is 0

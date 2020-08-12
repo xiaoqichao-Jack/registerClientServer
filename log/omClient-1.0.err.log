@@ -1,0 +1,15 @@
+Error: Unable to access jarfile C:\client-1.0\omClient-1.0.jar
+Error: Unable to access jarfile C:\client-1.0\omClient-1.0.jar
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Unknown Source)
+	at org.com.yilian.oMClient.App.run(App.java:73)
+	at java.lang.Thread.run(Unknown Source)
+java.io.FileNotFoundException: C:\app\zabbix\conf\zabbix_agentd.win.conf (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.com.yilian.oMClient.instructions.impl.ViewAgentConfigInstructionImpl.executeInstruction(ViewAgentConfigInstructionImpl.java:20)
+	at org.com.yilian.oMClient.instructions.Functions.viewAgentConfig(Functions.java:42)
+	at org.com.yilian.oMClient.App.getInstruction(App.java:46)
+	at org.com.yilian.oMClient.App.run(App.java:86)
+	at java.lang.Thread.run(Unknown Source)

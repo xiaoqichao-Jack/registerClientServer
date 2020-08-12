@@ -1,0 +1,27 @@
+﻿<service>
+ 2 
+ 3      <id>omClient-1.0</id>
+ 4 
+ 5      <name>omClient-1.0 </name>
+ 6 
+ 7      <description>This is omClient-1.0 service.</description>
+ 8 
+ 9      <!-- java环境变量 -->
+10 
+11      <env name="JAVA_HOME" value="D:\BaiduNetdiskDownload\JDK8_64\bin"/>
+12 
+13      <executable>java</executable>
+14 
+15     <arguments>-jar "C:\omClient-1.0\omClient-1.0.jar"</arguments>
+16 
+17      <!-- 开机启动 -->
+18 
+19      <startmode>Automatic</startmode>
+20 
+21      <!-- 日志配置 -->
+22 
+23      <logpath>%BASE%\log</logpath>
+24 
+25      <logmode>rotate</logmode>
+26 
+27  </service>

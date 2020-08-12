@@ -1,0 +1,228 @@
+2020-08-05 13:00:41,857 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:00:43,123 FATAL - Unhandled exception
+System.Exception: Unknown command: unistall
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2020-08-05 13:00:49,791 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:00:52,614 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:00:53,568 INFO  - Uninstalling the service with id 'omClient-1.0'
+2020-08-05 13:00:53,613 DEBUG - Completed. Exit code is 0
+2020-08-05 13:04:19,916 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:04:21,135 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-05 13:04:21,162 DEBUG - Completed. Exit code is 0
+2020-08-05 13:04:21,483 DEBUG - Starting WinSW in the service mode
+2020-08-05 13:04:21,529 INFO  - Starting java -jar "C:\client-1.0\omClient-1.0.jar"
+2020-08-05 13:04:21,674 INFO  - Started process 16664
+2020-08-05 13:04:21,683 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-05 13:04:42,117 DEBUG - Starting WinSW in the service mode
+2020-08-05 13:04:42,162 INFO  - Starting java -jar "C:\client-1.0\omClient-1.0.jar"
+2020-08-05 13:04:42,203 INFO  - Started process 4708
+2020-08-05 13:04:42,212 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-05 13:07:05,198 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:07:07,966 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:07:09,088 INFO  - Uninstalling the service with id 'omClient-1.0'
+2020-08-05 13:07:09,109 DEBUG - Completed. Exit code is 0
+2020-08-05 13:07:16,976 DEBUG - Starting WinSW in the CLI mode
+2020-08-05 13:07:18,111 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-05 13:07:18,146 DEBUG - Completed. Exit code is 0
+2020-08-05 13:07:18,558 DEBUG - Starting WinSW in the service mode
+2020-08-05 13:07:18,611 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-05 13:07:18,671 INFO  - Started process 14160
+2020-08-05 13:07:18,681 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 09:45:30,691 DEBUG - Starting WinSW in the CLI mode
+2020-08-06 09:46:01,129 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-06 09:51:32,538 DEBUG - Starting WinSW in the CLI mode
+2020-08-06 09:51:33,928 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-06 09:51:33,956 DEBUG - Completed. Exit code is 0
+2020-08-06 09:51:34,134 DEBUG - Starting WinSW in the service mode
+2020-08-06 09:51:34,947 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 09:51:34,977 INFO  - Started process 22468
+2020-08-06 09:51:34,982 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 09:47:52,898 DEBUG - Starting WinSW in the CLI mode
+2020-08-06 09:47:54,239 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-06 09:47:54,707 DEBUG - Completed. Exit code is 0
+2020-08-06 09:47:55,191 DEBUG - Starting WinSW in the service mode
+2020-08-06 09:47:55,425 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 09:47:55,534 INFO  - Started process 3720
+2020-08-06 09:47:55,550 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 10:51:51,509 INFO  - Stopping omClient-1.0
+2020-08-06 10:51:51,525 DEBUG - ProcessKill 3720
+2020-08-06 10:51:51,743 INFO  - Stopping process 3720
+2020-08-06 10:51:51,743 INFO  - Send SIGINT 3720
+2020-08-06 10:51:52,320 INFO  - SIGINT to 3720 successful
+2020-08-06 10:51:52,320 INFO  - Finished omClient-1.0
+2020-08-06 10:51:52,336 DEBUG - Completed. Exit code is 0
+2020-08-06 10:51:54,723 DEBUG - Starting WinSW in the service mode
+2020-08-06 10:51:54,785 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 10:51:54,832 INFO  - Started process 3212
+2020-08-06 10:51:54,832 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 11:19:30,341 INFO  - Stopping omClient-1.0
+2020-08-06 11:19:30,341 DEBUG - ProcessKill 3212
+2020-08-06 11:19:30,497 INFO  - Stopping process 3212
+2020-08-06 11:19:30,497 INFO  - Send SIGINT 3212
+2020-08-06 11:19:31,012 INFO  - SIGINT to 3212 successful
+2020-08-06 11:19:31,012 INFO  - Finished omClient-1.0
+2020-08-06 11:19:31,027 DEBUG - Completed. Exit code is 0
+2020-08-06 11:19:33,913 DEBUG - Starting WinSW in the service mode
+2020-08-06 11:19:33,976 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 11:19:34,023 INFO  - Started process 5992
+2020-08-06 11:19:34,023 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 12:42:03,696 INFO  - Stopping omClient-1.0
+2020-08-06 12:42:03,696 DEBUG - ProcessKill 5992
+2020-08-06 12:42:03,836 WARN  - Failed to locate children of the process with PID=5992. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): 系统正在关机。 (异常来自 HRESULT:0x8007045B)
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-08-06 12:42:03,899 INFO  - Stopping process 5992
+2020-08-06 12:42:03,899 INFO  - Send SIGINT 5992
+2020-08-06 12:42:04,164 INFO  - SIGINT to 5992 successful
+2020-08-06 12:42:04,164 INFO  - Finished omClient-1.0
+2020-08-06 12:42:04,273 DEBUG - Completed. Exit code is 0
+2020-08-06 12:43:05,397 DEBUG - Starting WinSW in the service mode
+2020-08-06 12:43:05,444 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 12:43:05,475 INFO  - Started process 1752
+2020-08-06 12:43:05,475 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 12:56:18,557 INFO  - Stopping omClient-1.0
+2020-08-06 12:56:18,557 DEBUG - ProcessKill 1752
+2020-08-06 12:56:18,729 INFO  - Stopping process 1752
+2020-08-06 12:56:18,729 INFO  - Send SIGINT 1752
+2020-08-06 12:56:19,244 INFO  - SIGINT to 1752 successful
+2020-08-06 12:56:19,259 INFO  - Finished omClient-1.0
+2020-08-06 12:56:19,259 DEBUG - Completed. Exit code is 0
+2020-08-06 12:56:20,102 DEBUG - Starting WinSW in the service mode
+2020-08-06 12:56:20,149 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 12:56:20,476 INFO  - Started process 2428
+2020-08-06 12:56:20,476 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 13:01:38,408 INFO  - Stopping omClient-1.0
+2020-08-06 13:01:38,408 DEBUG - ProcessKill 2428
+2020-08-06 13:01:38,564 INFO  - Stopping process 2428
+2020-08-06 13:01:38,564 INFO  - Send SIGINT 2428
+2020-08-06 13:01:39,079 INFO  - SIGINT to 2428 successful
+2020-08-06 13:01:39,079 INFO  - Finished omClient-1.0
+2020-08-06 13:01:39,079 DEBUG - Completed. Exit code is 0
+2020-08-06 13:01:43,665 DEBUG - Starting WinSW in the service mode
+2020-08-06 13:01:43,727 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 13:01:43,774 INFO  - Started process 4772
+2020-08-06 13:01:43,774 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-06 14:47:45,094 INFO  - Stopping omClient-1.0
+2020-08-06 14:47:45,094 DEBUG - ProcessKill 4772
+2020-08-06 14:47:45,266 INFO  - Stopping process 4772
+2020-08-06 14:47:45,266 INFO  - Send SIGINT 4772
+2020-08-06 14:47:45,780 INFO  - SIGINT to 4772 successful
+2020-08-06 14:47:45,780 INFO  - Finished omClient-1.0
+2020-08-06 14:47:45,796 DEBUG - Completed. Exit code is 0
+2020-08-06 14:47:46,826 DEBUG - Starting WinSW in the service mode
+2020-08-06 14:47:46,872 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-06 14:47:47,325 INFO  - Started process 1932
+2020-08-06 14:47:47,325 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-11 17:23:46,938 INFO  - Stopping omClient-1.0
+2020-08-11 17:23:46,938 DEBUG - ProcessKill 1932
+2020-08-11 17:23:47,125 INFO  - Stopping process 1932
+2020-08-11 17:23:47,125 INFO  - Send SIGINT 1932
+2020-08-11 17:23:47,655 INFO  - SIGINT to 1932 successful
+2020-08-11 17:23:47,655 INFO  - Finished omClient-1.0
+2020-08-11 17:23:47,671 DEBUG - Completed. Exit code is 0
+2020-08-11 17:23:50,495 DEBUG - Starting WinSW in the service mode
+2020-08-11 17:23:50,557 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-11 17:23:50,604 INFO  - Started process 1904
+2020-08-11 17:23:50,619 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-11 17:26:44,188 INFO  - Stopping omClient-1.0
+2020-08-11 17:26:44,188 DEBUG - ProcessKill 1904
+2020-08-11 17:26:44,313 WARN  - Failed to locate children of the process with PID=1904. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): 系统正在关机。 (异常来自 HRESULT:0x8007045B)
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-08-11 17:26:44,360 INFO  - Stopping process 1904
+2020-08-11 17:26:44,360 INFO  - Send SIGINT 1904
+2020-08-11 17:26:44,625 INFO  - SIGINT to 1904 successful
+2020-08-11 17:26:44,625 INFO  - Finished omClient-1.0
+2020-08-11 17:26:44,672 DEBUG - Completed. Exit code is 0
+2020-08-11 17:27:34,088 DEBUG - Starting WinSW in the service mode
+2020-08-11 17:27:34,135 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-11 17:27:34,182 INFO  - Started process 1828
+2020-08-11 17:27:34,182 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-12 11:58:00,990 INFO  - Stopping omClient-1.0
+2020-08-12 11:58:00,990 DEBUG - ProcessKill 1828
+2020-08-12 11:58:01,442 INFO  - Stopping process 1828
+2020-08-12 11:58:01,442 INFO  - Send SIGINT 1828
+2020-08-12 11:58:01,957 INFO  - SIGINT to 1828 successful
+2020-08-12 11:58:01,957 INFO  - Finished omClient-1.0
+2020-08-12 11:58:01,972 DEBUG - Completed. Exit code is 0
+2020-08-12 11:58:04,890 DEBUG - Starting WinSW in the service mode
+2020-08-12 11:58:04,936 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 11:58:04,983 INFO  - Started process 4932
+2020-08-12 11:58:04,999 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-12 11:58:09,479 INFO  - Stopping omClient-1.0
+2020-08-12 11:58:09,479 DEBUG - ProcessKill 4932
+2020-08-12 11:58:09,651 INFO  - Stopping process 4932
+2020-08-12 11:58:09,651 INFO  - Send SIGINT 4932
+2020-08-12 11:58:10,181 INFO  - SIGINT to 4932 successful
+2020-08-12 11:58:10,181 INFO  - Finished omClient-1.0
+2020-08-12 11:58:10,181 DEBUG - Completed. Exit code is 0
+2020-08-12 12:00:43,217 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 12:00:43,997 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-12 12:00:44,138 DEBUG - Completed. Exit code is 0
+2020-08-12 12:00:44,606 DEBUG - Starting WinSW in the service mode
+2020-08-12 12:00:44,668 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 12:00:44,730 INFO  - Started process 5840
+2020-08-12 12:00:44,730 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2020-08-12 12:03:12,500 INFO  - Stopping omClient-1.0
+2020-08-12 12:03:12,516 DEBUG - ProcessKill 5840
+2020-08-12 12:03:12,672 INFO  - Stopping process 5840
+2020-08-12 12:03:12,687 INFO  - Send SIGINT 5840
+2020-08-12 12:03:13,186 INFO  - SIGINT to 5840 successful
+2020-08-12 12:03:13,186 INFO  - Finished omClient-1.0
+2020-08-12 12:03:13,202 DEBUG - Completed. Exit code is 0
+2020-08-12 14:21:00,708 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 14:21:01,692 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-12 14:21:01,896 DEBUG - Completed. Exit code is 0
+2020-08-12 14:21:02,563 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:21:02,620 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 14:21:02,811 DEBUG - Completed. Exit code is 0
+2020-08-12 14:21:45,223 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:21:45,273 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 14:21:45,320 DEBUG - Completed. Exit code is 0
+2020-08-12 14:23:58,180 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:23:58,234 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 14:23:58,300 DEBUG - Completed. Exit code is 0
+2020-08-12 14:26:39,647 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:26:39,697 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 14:26:39,757 DEBUG - Completed. Exit code is 0
+2020-08-12 14:54:59,903 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:55:56,895 DEBUG - Completed. Exit code is 0
+2020-08-12 14:56:49,256 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 14:56:49,533 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-12 14:56:49,556 DEBUG - Completed. Exit code is 0
+2020-08-12 14:56:49,910 DEBUG - Starting WinSW in the service mode
+2020-08-12 14:56:49,955 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 14:56:50,020 DEBUG - Completed. Exit code is 0
+2020-08-12 15:14:14,353 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 15:14:14,602 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-12 15:14:14,605 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'omClient-1.0' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2020-08-12 15:14:14,958 DEBUG - Starting WinSW in the service mode
+2020-08-12 15:14:15,002 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 15:14:15,032 DEBUG - Completed. Exit code is 0
+2020-08-12 15:20:16,386 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 15:20:16,628 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-12 15:20:16,642 DEBUG - Completed. Exit code is 0
+2020-08-12 15:20:16,955 DEBUG - Starting WinSW in the service mode
+2020-08-12 15:20:16,996 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 15:20:17,024 DEBUG - Completed. Exit code is 0
+2020-08-12 15:35:42,533 DEBUG - Starting WinSW in the CLI mode
+2020-08-12 15:35:42,843 INFO  - Installing the service with id 'omClient-1.0'
+2020-08-12 15:35:42,862 DEBUG - Completed. Exit code is 0
+2020-08-12 15:35:43,248 DEBUG - Starting WinSW in the service mode
+2020-08-12 15:35:43,299 INFO  - Starting java -jar "C:\omClient-1.0\omClient-1.0.jar"
+2020-08-12 15:35:43,337 DEBUG - Completed. Exit code is 0
